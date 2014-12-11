@@ -148,7 +148,7 @@ public class ArActivity extends CardboardActivity {
 
                 new PostStuff().execute("http://captor.thupukair.com",someString);
                 try {
-                    Thread.sleep(100);
+                    Thread.sleep(500);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -201,9 +201,7 @@ public class ArActivity extends CardboardActivity {
 
             } catch (ClientProtocolException e) {
                 e.printStackTrace();
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+                
 
             return null;
         }
